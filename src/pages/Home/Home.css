@@ -1,0 +1,13 @@
+#base-container {
+  min-height: 100vh;
+}
+.base-container_main__mvaf5 {
+  align-items: center;
+  color: #f1dac4;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100vw;
+  position: relative;
+  flex: 1 1;
+}
