@@ -15,7 +15,7 @@
 body,
 button,
 input {
-  font-family: Sora;
+  /* font-family: Sora; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
