@@ -11,3 +11,10 @@
   position: relative;
   flex: 1 1;
 }
+.home_home__DKDa2 {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 100%;
+  z-index: 0;
+}
