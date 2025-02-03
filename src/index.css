@@ -1,6 +1,6 @@
 :root {
-  font-family: Sora, sans-serif, -apple-system, blinkmacsystemfont, Segoe UI,
-    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue;
+  /* font-family: Sora, sans-serif, -apple-system, blinkmacsystemfont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue; */
   --default-cc-font-size: 1.64vw;
   --swiper-theme-color: #007aff;
   --swiper-navigation-size: 44px;
