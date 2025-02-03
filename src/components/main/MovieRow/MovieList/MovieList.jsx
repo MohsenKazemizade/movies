@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import MovieCard from "../MovieCard/MovieCard";
-import "./MovieList.css";
+// import "./MovieList.css";
 
 const MovieList = ({ data }) => {
   return (

@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import "./MovieRowTitle.css";
+// import "./MovieRowTitle.css";
 const MovieRowTitle = ({ title }) => {
   return (
     <div className="container content-row_content-row__title__gZklP">

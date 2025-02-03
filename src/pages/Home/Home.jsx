@@ -3,7 +3,7 @@ import axios from "axios";
 import Hero from "../../components/main/HomeHero/Hero";
 import MovieRow from "../../components/main/MovieRow/MovieRow";
 import CreateAccountSection from "../../components/main/CreateAccount/CreateAccountSection";
-import "./Home.css";
+// import "./Home.css";
 
 const Home = () => {
   const [movies, setMovies] = useState([]);

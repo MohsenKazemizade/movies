@@ -1,4 +1,4 @@
-import "./Hero.css";
+// import "./Hero.css";
 const Hero = () => {
   return (
     <div id="hero" className="hero_hero__SJ6ap">

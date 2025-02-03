@@ -1,8 +1,7 @@
-/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 // import { useState } from "react";
 import MovieRowTitle from "./MovieRowTitle/MovieRowTitle";
-import "./MovieRow.css";
+// import "./MovieRow.css";
 import MovieList from "./MovieList/MovieList";
 const MovieRow = ({ data, title }) => {
   //   const [title, setTitle] = useState("");
