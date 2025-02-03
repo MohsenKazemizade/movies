@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import "./MovieRowTitle.css";
 const MovieRowTitle = ({ title }) => {
   return (
