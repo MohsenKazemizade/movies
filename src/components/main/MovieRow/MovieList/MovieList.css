@@ -12,11 +12,6 @@
 .swiper-wrapper {
   transform: translateZ(0);
 }
-@media screen and (max-width: 1366px) {
-  .swiper-wrapper {
-    padding-left: 48px;
-  }
-}
 .swiper-wrapper {
   position: relative;
   width: 100%;
@@ -26,4 +21,9 @@
   transition-property: transform;
   box-sizing: initial;
   padding-left: 72px;
+}
+@media screen and (max-width: 1366px) {
+  .swiper-wrapper {
+    padding-left: 48px;
+  }
 }

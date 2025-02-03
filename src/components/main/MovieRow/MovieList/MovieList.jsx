@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+import MovieCard from "../MovieCard/MovieCard";
 import "./MovieList.css";
 
 const MovieList = ({ data }) => {
@@ -10,7 +12,11 @@ const MovieList = ({ data }) => {
             transitionDuration: "200ms",
             transform: "translate3d(0px, 0px, 0px)",
           }}
-        ></div>
+        >
+          {data.map((movie, index) => {
+            return <MovieCard key={movie.id} movie={movie} index={index} />;
+          })}
+        </div>
       </div>
     </div>
   );
