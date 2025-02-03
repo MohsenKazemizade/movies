@@ -251,6 +251,20 @@ button.button-base_outer__lo8Kr.button-base_md-48-16__DWmaI.button-base_primary_
   font-size: 14px;
   color: #eaf6ff;
 }
+@media screen and (hover: hover) {
+  button.button-base_outer__lo8Kr.button-base_md-48-16__DWmaI.button-base_primary__2nq0a:hover
+    .button-base_inner__k9W0g {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (hover: hover) {
+  button.button-base_outer__lo8Kr.button-base_md-48-16__DWmaI.button-base_primary__2nq0a:hover.button-base_transparent__d3kp_
+    .button-base_inner__k9W0g {
+    background: #151515e6;
+    border: 2px solid #ff601c;
+  }
+}
 @media screen and (max-width: 1366px) {
   .container {
     padding: 0 48px;
