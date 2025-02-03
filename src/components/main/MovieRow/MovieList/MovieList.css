@@ -1,0 +1,29 @@
+.larger-cards .swiper {
+  padding-top: 28px;
+}
+.swiper {
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  z-index: 1;
+  padding: 21px 0 41px;
+}
+.swiper-android .swiper-slide,
+.swiper-wrapper {
+  transform: translateZ(0);
+}
+@media screen and (max-width: 1366px) {
+  .swiper-wrapper {
+    padding-left: 48px;
+  }
+}
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: initial;
+  padding-left: 72px;
+}

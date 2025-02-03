@@ -6,6 +6,7 @@ import "./Home.css";
 
 const Home = () => {
   const [movies, setMovies] = useState([]);
+
   useEffect(() => {
     const fetchMovies = async () => {
       try {
@@ -19,13 +20,12 @@ const Home = () => {
     };
     fetchMovies();
   }, []);
-  console.log(movies);
   return (
     <main className="base-container_main__mvaf5" id="base-container">
       <div className="home_home__DKDa2">
         <Hero />
         <div className="home_home__content-rows__NVLjE" id="rows-container">
-          <MovieRow />
+          <MovieRow data={movies} title="Top 250 Movie" />
         </div>
       </div>
     </main>
