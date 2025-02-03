@@ -1,8 +1,25 @@
+import { useEffect, useState } from "react";
+import axios from "axios";
 import Hero from "../../components/main/HomeHero/Hero";
 import MovieRow from "../../components/main/MovieRow/MovieRow";
 import "./Home.css";
 
 const Home = () => {
+  const [movies, setMovies] = useState([]);
+  useEffect(() => {
+    const fetchMovies = async () => {
+      try {
+        const res = await axios.get(
+          "https://moviesapi.codingfront.dev/api/v1/movies"
+        );
+        setMovies(res.data.data);
+      } catch (error) {
+        console.error(error);
+      }
+    };
+    fetchMovies();
+  }, []);
+  console.log(movies);
   return (
     <main className="base-container_main__mvaf5" id="base-container">
       <div className="home_home__DKDa2">
