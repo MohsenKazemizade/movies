@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import Hero from "../../components/main/HomeHero/Hero";
 import MovieRow from "../../components/main/MovieRow/MovieRow";
+import CreateAccountSection from "../../components/main/CreateAccount/CreateAccountSection";
 import "./Home.css";
 
 const Home = () => {
@@ -26,6 +27,7 @@ const Home = () => {
         <Hero />
         <div className="home_home__content-rows__NVLjE" id="rows-container">
           <MovieRow data={movies} title="Top 250 Movie" />
+          <CreateAccountSection />
         </div>
       </div>
     </main>

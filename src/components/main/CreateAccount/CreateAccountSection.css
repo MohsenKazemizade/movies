@@ -1,0 +1,66 @@
+.container > .cta-grid {
+  margin: 0 0 45px;
+}
+.cta-grid-block_cta-grid-block__lOwrj {
+  color: #eaf6ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  font-family: Sora;
+  font-style: normal;
+  min-height: 246px;
+  background: url(/_next/static/media/background.69985521.jpg);
+  background-size: cover;
+  border: 1px solid #eaf6ff26;
+  border-radius: 14.9017px;
+  padding: 0 67px;
+  margin: 22px 0;
+}
+.cta-grid-block_cta-grid-block__lOwrj .cta-grid-block_buttons-block__I7ANE {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.cta-grid-block_cta-grid-block__lOwrj h3 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  margin-top: 0;
+  color: #f1dac4;
+}
+.cta-grid-block_cta-grid-block__lOwrj
+  .cta-grid-block_cta-block__urCyr
+  .cta-grid-block_cta-block-list__ImMTU {
+  margin-left: 10px;
+}
+.cta-grid-block_cta-grid-block__lOwrj
+  .cta-grid-block_cta-block__urCyr
+  .cta-grid-block_cta-block-list__ImMTU
+  > div {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+.cta-grid-block_cta-grid-block__lOwrj .cta-grid-block_cta-block__urCyr svg {
+  color: #ff601c;
+  margin-right: 12px;
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  margin-top: 7px;
+}
+.cta-grid-block_cta-grid-block__lOwrj .cta-grid-block_cta-block__urCyr span {
+  line-height: 27px;
+  font-size: 16px !important;
+  font-weight: 400;
+  display: inline-block;
+}
+.cta-grid-block_cta-grid-block__lOwrj
+  .cta-grid-block_buttons-block__I7ANE
+  button {
+  width: 185px;
+  margin: 4px 0;
+}
